@@ -38,7 +38,7 @@ Simply delete `version.dll` (and optionally `MabuRabu_GG_Xlocker.ini` / `MabuRab
 ### Build Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MagisterX/MabuRabu-GG-Xlocker.git
+   git clone https://github.com/MagisterX/MabuRabu_GG_Xlocker.git
    ```
 2. Open the `.sln` solution file in Visual Studio 2022.
 3. Make sure **`Release`** and **`x64`** are selected.
