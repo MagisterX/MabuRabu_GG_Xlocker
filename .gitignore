@@ -1,0 +1,38 @@
+# Visual Studio / Build artifacts
+.vs/
+x64/
+x86/
+Debug/
+Release/
+out/
+build/
+Mabu-rabu/x64
+Mabu-rabu/x86
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Compiled binaries & intermediate files
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.idb
+*.ipch
+*.pch
+*.tlog
+*.log
+*.lastbuildstate
+
+# Mod runtime logs & generated configs
+MabuRabu_GG_Xlocker_Log.txt*
+MabuRabu_GG_Xlocker.ini
+*.bak
