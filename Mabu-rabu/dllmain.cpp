@@ -549,7 +549,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
         wchar_t exePath[MAX_PATH] = { 0 };
         GetModuleFileNameW(nullptr, exePath, MAX_PATH);
-        if (wcsstr(exePath, L"muv_luv_girlsgarden_cl.exe") == nullptr) {
+        if (wcsstr(exePath, L"muv_luv_girlsgarden_cl.exe") == nullptr &&
+            wcsstr(exePath, L"muv_luv_girlsgardenx_cl.exe") == nullptr) {
             return TRUE;
         }
 
