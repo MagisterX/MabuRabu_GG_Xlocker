@@ -66,7 +66,7 @@ static void CreateDefaultConfig(const std::wstring& iniPath) {
         const char* defaultIni =
             "[Settings]\r\n"
             "; Cockpit camera mode (0 = do nothing, 1 = force enable, 2 = force disable)\r\n"
-            "Cockpit=1\r\n"
+            "Cockpit=0\r\n"
             "\r\n"
             "; Enable change of client (0 = do nothing, 1 = force flatform)\r\n"
             "ForcePlatform=0\r\n"
