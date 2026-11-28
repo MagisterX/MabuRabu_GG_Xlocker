@@ -10,6 +10,7 @@ Mabu-rabu/x64
 Mabu-rabu/x86
 
 # User-specific files
+*.aps
 *.user
 *.suo
 *.userosscache
